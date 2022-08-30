@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--  FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- JavaScript -->
+  <script src="js/index.js" defer></script>
+</head>
+
+<body>
+  <div id="mainContent">
+    <h1>ToDo List</h1>
+    <form id="todo-form">
+      <p>Adicione uma tarefa</p>
+      <div id="todo-content">
+        <input id="todo-input" type="text" placeholder="Add your task here">
+        <button type="submit"><i class="fa-thin fa-plus"></i></button>
+      </div>
+    </form>
+    <form class="hide" id="edit-form">
+      <p>Edite sua tarefa</p>
+      <div id="edit-content">
+        <input id="edit-input"  type="text" placeholder="Edit your task here">
+        <button type="submit"><i class="fa-solid fa-check-double"></i></button>
+      </div>
+      <button id="cancel-edit-btn"type="submit">Cancelar</button>
+    </form>
+    <div id="todo-list">
+      <div class="todo done">
+        <h3>Estou fazendo algo...</h3>
+        <button class="finish-todo"><i class="fa-solid fa-check"></i></button>
+        <button class="edit-todo"><i class="fa-solid fa-pen"></i></button>
+        <button class="remove-todo"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  
+  </div>
+</body>
+
+</html>
