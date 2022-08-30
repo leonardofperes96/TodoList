@@ -74,49 +74,6 @@ p {
 .hide{
   display: none;
 }
-#toolbar {
-  padding: 1rem;
-  border-bottom: 1px solid #333;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#toolbar-container {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  padding-right: 1rem;
-  border-right: 1px solid #333;
-}
-
-#search{
-  display: flex;
-  align-items: center;
-  width: 60%;
-  gap: 0.25rem;
-}
-
-#filter {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  width: 40%;
-  padding-left: 1rem;
-}
-
-#filter select {
-  padding: 0.25rem;
-  flex: 1;
-  text-align: center;
-}
-
-#filter select option{
-  background: white;
-  color: #073875;
-}
-
-
 
 .todo {
   display: flex;
@@ -126,11 +83,11 @@ p {
   border-bottom: 1px solid #333;
   margin-bottom: 1rem;
 }
+
 .todo h3{
   flex: 1;
   font-size: 1rem;
 }
-
 
 .todo button{
   margin-left: .3rem;
